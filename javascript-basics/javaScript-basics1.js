@@ -6,4 +6,15 @@ function myFunction(a, b){
 
       return a+b;
 }
-myFunction(1, 10);
+console.log( myFunction(1, 10));
+
+
+
+/* Problem 2 */
+// Write a function that takes a string (a) and a number (n) as argument
+// Return the nth character of 'a'
+function myFunction(a) {
+  const result =  a.substring(0,a.length - 3)
+  return result;
+}
+
